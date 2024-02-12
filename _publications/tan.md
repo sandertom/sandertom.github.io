@@ -41,8 +41,8 @@ These techniques require much more computing resources than their non-private co
 
 *How?*
 - We first use the tools of Rényi Differential Privacy (RDP) to highlight that the privacy budget, when not overcharged, only depends on the total amount of noise (TAN) injected throughout training.
-We then derive scaling laws for training models with DP-SGD to optimize hyper-parameters with more than a $100\times$ reduction in computational budget.
-- We apply the proposed method on CIFAR-10 and ImageNet and, in particular, strongly improve the state-of-the-art on ImageNet with a \(\+9\) points gain in top-1 accuracy for a privacy budget \(\varepsilon=8\).
+We then derive scaling laws for training models with DP-SGD to optimize hyper-parameters with more than a *100 reduction in computational budget.
+- We apply the proposed method on CIFAR-10 and ImageNet and, in particular, strongly improve the state-of-the-art on ImageNet with a \(\+9\) points gain in top-1 accuracy for a privacy budget \(\epsilon=8\).
 
 *When?*
 - The method could apply whenever a pratictioner wants to train a machine learning model with Differential Privacy Guarantees. 
