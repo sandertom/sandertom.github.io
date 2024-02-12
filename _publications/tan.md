@@ -38,6 +38,7 @@ header-includes:
 These techniques require much more computing resources than their non-private counterparts, shifting the traditional privacy-accuracy trade-off to a privacy-accuracy-compute trade-off.
 - We decouple privacy analysis and experimental behavior of noisy training to explore the trade-off with minimal computational requirements. 
   
+<img src="/assets/publis/tan/poster.png" class="img-fluid thumbnail mt-2" alt="Overview. Total Amount of Noise (TAN) for performance improvement under differential privacy constraing.">
 
 *How?*
 - We first use the tools of Rényi Differential Privacy (RDP) to highlight that the privacy budget, when not overcharged, only depends on the total amount of noise (TAN) injected throughout training.
