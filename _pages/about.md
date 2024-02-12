@@ -57,7 +57,3 @@ Two-year intensive preparation courses for the entrance exams to top French Engi
 - Location: Paris
 - He/Him
 - Year of birth: 1998 
-<!-- - Hobbies
-    - Tennis 🎾 (I am a big fan of Rafael Nadal 🐂) at competitive level, climbing 🧗‍♂️and running 🏃🏼.
-    - Drawing & Graphic design 
-    - Playing 'Somewhere over the rainbow' with my ukulele 🎵 -->
