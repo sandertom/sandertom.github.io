@@ -1,0 +1,8 @@
+@inproceedings{sander2023tan,
+  title={Tan without a burn: Scaling laws of dp-sgd},
+  author={Sander, Tom and Stock, Pierre and Sablayrolles, Alexandre},
+  booktitle={International Conference on Machine Learning},
+  pages={29937--29949},
+  year={2023},
+  organization={PMLR}
+}
