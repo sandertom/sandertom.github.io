@@ -21,7 +21,7 @@ authors:
 
 journal: International Conference of Machine Learning (ICML)
 bib: /assets/bibliography/TAN.txt
-pdf: /assets/publis/TAN/paper.pdf 
+pdf: /assets/publis/tan/paper.pdf 
 arxiv: https://arxiv.org/abs/2210.03403
 img: /assets/publis/tan/splash.png
 code: https://github.com/facebookresearch/tan
