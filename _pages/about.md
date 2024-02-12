@@ -9,7 +9,7 @@ nav: true
 
 ## 👨🏼‍💻 Short Bio
 
-I am a PhD student at FAIR Paris (Fundamental AI Research lab at Meta) and École polytechnique, advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by Alexandre Sablayrolles (https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and Pierre Stock (https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
+I am a PhD student at FAIR Paris (Fundamental AI Research lab at Meta) and École polytechnique, advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
 
 My research focuses on privacy preserving machine learning and data protection, from Differential Privacy to Watermarking.
 
