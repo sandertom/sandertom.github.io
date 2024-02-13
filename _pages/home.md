@@ -25,7 +25,7 @@ news: true  # includes a list of news items
   Prior to my PhD I studied at [École polytechnique](https://www.polytechnique.edu/en), majoring in computer science and mathematics.
   I also hold a Master's degree from [École Normale Supérieure Paris-Saclay](https://www.universite-paris-saclay.fr/en) where I studied Mathematics for vision and learning (MVA). 
   I previously interned at Polytechnique Montreal [Université de Montreal](https://corail-research.github.io/), on Reinforcement Learning for Constraint Programing, and at [BNP-Paribas](https://mabanque.bnpparibas/) where I developed tools for fraud detection.
-  I also spent 6 months as a civil servant in Hanoï (Vietnam) as an advisor to the director of [USTH](https://usth.edu.vn/en/), a scientific university.
+  I also spent 6 months as a civil servant in Hanoï (Vietnam) working with the director of [USTH](https://usth.edu.vn/en/), a scientific university.
 
   <!-- I am really excited in the developement of Artificial Intelligence and of its applications in the fields of every day's life.  -->
   </div>
