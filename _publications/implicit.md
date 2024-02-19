@@ -58,7 +58,6 @@ header-includes:
 ## Links
 
 - [`arXiv`]({{page.arxiv}})
-- [`Code`]({{page.code}})
 - [`PDF`]({{page.pdf}})
 - [`BibTeX`]({{page.bib}})
 
