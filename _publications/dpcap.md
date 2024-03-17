@@ -59,5 +59,5 @@ Check our twitter thread!
 - [`Code`]({{page.code}})
 - [`PDF`]({{page.pdf}})
 - [`BibTeX`]({{page.bib}})
-- ['Twitter'] (https://x.com/RednasTom/status/1767083465843851384?s=20)
+- ['Twitter'](https://x.com/RednasTom/status/1767083465843851384?s=20)
 
