@@ -31,7 +31,6 @@ bib: /assets/bibliography/dpcap.txt
 pdf: /assets/publis/dpcap/paper.pdf 
 arxiv: https://arxiv.org/abs/2403.02506
 img: /assets/publis/dpcap/splash.png
-twitter: https://x.com/RednasTom/status/1767083465843851384?s=20
 
 header-includes:
   - \usepackage[ruled,vlined,linesnumbered]{algorithm2e}
@@ -44,6 +43,8 @@ Differentially private (DP) machine learning is considered the gold-standard sol
 ## Twitter Thread
 
 Check our twitter thread!
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Differentially Private Representation Learning via Image Captioning&quot;. We&#39;ve trained a DP image captioner on 200M+ image-text pairs, with SOTA DP image representation and better than non private MAE on certain tasks<a href="https://t.co/BQtU0mtYXc">https://t.co/BQtU0mtYXc</a><a href="https://twitter.com/AIatMeta?ref_src=twsrc%5Etfw">@AIatMeta</a> <a href="https://twitter.com/berkeley_ai?ref_src=twsrc%5Etfw">@berkeley_ai</a> <a href="https://twitter.com/Polytechnique?ref_src=twsrc%5Etfw">@Polytechnique</a> <a href="https://t.co/hfaXZievwp">pic.twitter.com/hfaXZievwp</a></p>&mdash; Tom Sander (@RednasTom) <a href="https://twitter.com/RednasTom/status/1767083465843851384?ref_src=twsrc%5Etfw">March 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <!-- <img src="/assets/publis/tan/poster.png" class="img-fluid thumbnail mt-2" alt="Overview. Total Amount of Noise (TAN) for performance improvement under differential privacy constraing."> --> 
 
@@ -58,5 +59,5 @@ Check our twitter thread!
 - [`Code`]({{page.code}})
 - [`PDF`]({{page.pdf}})
 - [`BibTeX`]({{page.bib}})
-- ['Twitter'] ({{page.twitter}})
+- ['Twitter'] (https://x.com/RednasTom/status/1767083465843851384?s=20)
 
