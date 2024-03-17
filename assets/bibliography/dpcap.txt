@@ -1,0 +1,6 @@
+@article{sander2024differentially,
+  title={Differentially Private Representation Learning via Image Captioning},
+  author={Sander, Tom and Yu, Yaodong and Sanjabi, Maziar and Durmus, Alain and Ma, Yi and Chaudhuri, Kamalika and Guo, Chuan},
+  journal={arXiv preprint arXiv:2403.02506},
+  year={2024}
+}
