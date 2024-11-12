@@ -1,5 +1,5 @@
 ---
-date: 2024-11-12
+date: 2024-06-01
 ---
 
-Our work "Watermarking Makes Language Models" got a spotlight at Neurips! Paper and code are available.
+Our work "Differentially Private Representation Learning via Image Captioning" is accepted at ICML 2024 in Vienna! Code and models are released!

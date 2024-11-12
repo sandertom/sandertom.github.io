@@ -26,7 +26,7 @@ authors:
   - name: Chuan Guo
     affiliations: [FAIR Meta]
 
-# journal: International Conference of Machine Learning (ICML)
+journal: International Conference of Machine Learning (ICML)
 bib: /assets/bibliography/dpcap.txt
 pdf: /assets/publis/dpcap/paper.pdf 
 arxiv: https://arxiv.org/abs/2403.02506
