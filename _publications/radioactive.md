@@ -6,7 +6,7 @@ noheader: true
 title: 'Watermarking Makes Language Models Radioactive'
 description: 
 
-date: 2024-03--1
+date: 2024-04-01
 
 authors:
   - name: Tom Sander
