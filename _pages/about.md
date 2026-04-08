@@ -2,23 +2,29 @@
 layout: page
 permalink: /about/
 title: About
-description: Detailed Curriculum Vitae, last updated 2023 <a href="/assets/pdf/cv.pdf"><i class="fas fa-download"></i></a>
+description: Detailed Curriculum Vitae, last updated 2025 <a href="/assets/pdf/cv.pdf"><i class="fas fa-download"></i></a>
 nav: true
 ---
 
 
 ## 👨🏼‍💻 Short Bio
 
-I am a PhD student at FAIR Paris (Fundamental AI Research lab at Meta) and École polytechnique, advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
+I am an AI Research Scientist at [Meta FAIR](https://ai.meta.com/research/) (Fundamental AI Research) in Paris. I completed my PhD at FAIR and [École polytechnique](https://www.polytechnique.edu/en), advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
 
-My research focuses on privacy preserving machine learning and data protection, from Differential Privacy to Watermarking.
+My research focuses on privacy preserving machine learning, data protection, and watermarking, from Differential Privacy to media provenance. I am a core contributor to [Meta Seal](https://github.com/facebookresearch/watermark-anything), Meta's official provenance offering.
 
 Prior to my PhD I studied at [École polytechnique](https://www.polytechnique.edu/en), majoring in computer science and mathematics.
- I also hold a Master's degree from [École Normale Supérieure Paris-Saclay](https://www.universite-paris-saclay.fr/en) where I studied Mathematics for vision and learning (MVA). 
+ I also hold a Master's degree from [École Normale Supérieure Paris-Saclay](https://www.universite-paris-saclay.fr/en) where I studied Mathematics for vision and learning (MVA).
  I previously interned at Polytechnique Montreal [Université de Montreal](https://corail-research.github.io/), on Reinforcement Learning for Constraint Programing, and at [BNP-Paribas](https://mabanque.bnpparibas/) where I developed tools for fraud detection.
-I also spent 6 months as a civil servant in Hanoï (Vietnam) working with the director the director of [USTH](https://usth.edu.vn/en/), a scientific university.
+I also spent 6 months as a civil servant in Hanoï (Vietnam) working with the director of [USTH](https://usth.edu.vn/en/), a scientific university.
 
 ## 🎓 Education
+
+### École Polytechnique (IP Paris) & Meta FAIR
+*2022 - 2025.* \\
+Ph.D. in Mathematics & Machine Learning.\\
+Thesis: *Data Tracing in Deep Learning for Privacy and Watermarking*.\\
+Advisors: Prof. Alain Durmus (CMAP) & Chuan Guo (Meta FAIR).
 
 ### Paris-Saclay University
 *2021 - 2022.* \\
@@ -31,7 +37,7 @@ Relevant course work:
 - Computational Optimal Transport, Computational Statistics, Machine Learning for Time Series
 
 
-### École polytechnique 
+### École polytechnique
 *2018 - 2022.*\\
 Best Engineering School in France - Bachelor of Science & Masters of Research in Applied Mathematics to Artificial Intelligence and Computer Science.
 
@@ -48,7 +54,7 @@ Relevant course work:
 
 ### Classes Préparatoires, Lycée Henri IV, MP/MP*
 *2016 - 2018.*\\
-Two-year intensive preparation courses for the entrance exams to top French Engineering schools (Mathematics, Physics, Chemistry).  
+Two-year intensive preparation courses for the entrance exams to top French Engineering schools (Mathematics, Physics, Chemistry).
 
 
 ## 🙋🏼‍♂️ Personal Information
@@ -56,4 +62,4 @@ Two-year intensive preparation courses for the entrance exams to top French Engi
 - Full Name: Tom Sander
 - Location: Paris
 - He/Him
-- Year of birth: 1998 
+- Year of birth: 1998

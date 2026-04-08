@@ -4,9 +4,9 @@ show: true
 noheader: true
 
 title: 'Watermark Anything with Localized Messages'
-description: 
+description:
 
-date: 2024-11-12
+date: 2025-01-22
 
 authors:
   - name: Tom Sander
@@ -25,10 +25,10 @@ authors:
     url: "https://scholar.google.com/citations?user=0eFZtREAAAAJ&hl=en"
     affiliations: [FAIR Meta]
 
-journal: arxiv
+journal: International Conference on Learning Representations (ICLR)
 arxiv: https://arxiv.org/abs/2411.07231
 bib: /assets/bibliography/wam.txt
-pdf: /assets/publis/wam/paper.pdf 
+pdf: /assets/publis/wam/paper.pdf
 img: /assets/publis/wam/splash.png
 
 
