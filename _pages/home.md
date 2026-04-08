@@ -37,38 +37,38 @@ news: true  # includes a list of news items
 
 <div class="row">
   <div class="col-md-4 mb-4">
-    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%;">
-      <a href="/publications/wam/">
-        <img src="/assets/publis/wam/splash.png" class="img-fluid" style="width: 100%;">
+    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+      <a href="/publications/wam/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+        <img src="/assets/publis/wam/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
       </a>
-      <div style="padding: 0.8rem;">
+      <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
         <h5><a href="/publications/wam/">Watermark Anything</a></h5>
-        <p style="font-size: 0.85rem;">SOTA image watermarking with localization. 1.1k+ ⭐ on <a href="https://github.com/facebookresearch/watermark-anything">GitHub</a>. Core engine behind Meta Seal.</p>
-        <span class="badge" style="background-color: var(--global-theme-color); color: white;">ICLR 2025</span>
+        <p style="font-size: 0.85rem; flex: 1;">SOTA image watermarking with localization. 1.1k+ ⭐ on <a href="https://github.com/facebookresearch/watermark-anything">GitHub</a>. Core engine behind Meta Seal.</p>
+        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">ICLR 2025</span>
       </div>
     </div>
   </div>
   <div class="col-md-4 mb-4">
-    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%;">
-      <a href="/publications/radioactive/">
-        <img src="/assets/publis/radioactive/splash.png" class="img-fluid" style="width: 100%;">
+    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+      <a href="/publications/radioactive/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+        <img src="/assets/publis/radioactive/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
       </a>
-      <div style="padding: 0.8rem;">
+      <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
         <h5><a href="/publications/radioactive/">Radioactive Watermarks</a></h5>
-        <p style="font-size: 0.85rem;">Detect if a model was trained on watermarked data. Used to protect datasets and detect distillation. <a href="https://github.com/facebookresearch/radioactive-watermark">Code</a>.</p>
-        <span class="badge" style="background-color: var(--global-theme-color); color: white;">NeurIPS 2024 Spotlight</span>
+        <p style="font-size: 0.85rem; flex: 1;">Detect if a model was trained on watermarked data. Used to protect datasets and detect distillation. <a href="https://github.com/facebookresearch/radioactive-watermark">Code</a>.</p>
+        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">NeurIPS 2024 Spotlight</span>
       </div>
     </div>
   </div>
   <div class="col-md-4 mb-4">
-    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%;">
-      <a href="/publications/tan/">
-        <img src="/assets/publis/tan/splash.png" class="img-fluid" style="width: 100%;">
+    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+      <a href="/publications/tan/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+        <img src="/assets/publis/tan/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
       </a>
-      <div style="padding: 0.8rem;">
+      <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
         <h5><a href="/publications/tan/">TAN: Scaling Laws of DP-SGD</a></h5>
-        <p style="font-size: 0.85rem;">Scaling laws that enable training privacy-preserving models at scale. Deployed in production at Meta. <a href="https://github.com/facebookresearch/tan">Code</a>.</p>
-        <span class="badge" style="background-color: var(--global-theme-color); color: white;">ICML 2023</span>
+        <p style="font-size: 0.85rem; flex: 1;">Scaling laws that enable training privacy-preserving models at scale. Deployed in production. <a href="https://github.com/facebookresearch/tan">Code</a>.</p>
+        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">ICML 2023</span>
       </div>
     </div>
   </div>
