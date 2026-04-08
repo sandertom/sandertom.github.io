@@ -6,7 +6,7 @@ title: Tom Sander # the website title (if blank, full name will be used instead)
 first_name: Tom
 last_name: Sander
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  AI Research Scientist at Meta FAIR
+  AI Research Scientist at Meta Superintelligence Labs - FAIR
 footer_text: >
 
 icon: assets/img/icon.png # the emoji used as the favicon
