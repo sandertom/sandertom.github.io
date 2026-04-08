@@ -30,9 +30,13 @@ authors:
 
 journal: Preprint, 2025
 arxiv: https://arxiv.org/abs/2512.16874
-img:
+img: /assets/publis/pixelseal/splash.png
 
 ---
+
+<p align="center">
+  <img src="{{page.img}}" class="img-fluid thumbnail mt-2" style="max-width: 75%;">
+</p>
 
 ## Abstract
 

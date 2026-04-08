@@ -32,9 +32,13 @@ authors:
 
 journal: Preprint, 2026
 arxiv: https://arxiv.org/abs/2601.16140
-img:
+img: /assets/publis/latent_wm/splash.png
 
 ---
+
+<p align="center">
+  <img src="{{page.img}}" class="img-fluid thumbnail mt-2" style="max-width: 75%;">
+</p>
 
 ## Abstract
 
