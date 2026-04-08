@@ -14,11 +14,12 @@ h4 {
 }
 
 
-a, table.table a{ // need to override the default link color of table.table
-  color: var(--global-text-color);
+a, table.table a{
+  color: var(--global-theme-color);
+  text-decoration: none;
   &:hover {
-    color: var(--global-theme-color);
-    // text-decoration: underline;
+    color: var(--global-hover-color);
+    text-decoration: underline;
   }
   &:hover:after {
     width: 100%;
@@ -32,11 +33,10 @@ table{
 }
 
 table td, table th {
-  border: 1px solid #ddd;
+  border: 1px solid var(--global-border-color);
   padding: 8px;
 }
 
-// table tr:nth-child(even){background-color: var(--global-text-color);}
 table tr:hover {background-color: var(--global-code-bg-color);}
 
 table th {
@@ -53,6 +53,10 @@ table th {
   border-radius: 50% !important;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   max-width: 80%;
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: scale(1.03);
+  }
 }
 
 .page-header{
@@ -62,11 +66,11 @@ table th {
 
 .page-title {
   margin-bottom: 0.2rem;
-  // text-transform: uppercase !important;
-  font-family: Helvetica;
-  font-weight: bolder;
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-weight: 500;
   a {
     color: inherit;
+    text-decoration: none;
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
@@ -76,8 +80,9 @@ table th {
 
 .page-description {
   margin-bottom: 2rem;
-  font-family: Helvetica;
-  font-size: 0.9rem;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 0.95rem;
+  color: var(--global-text-color-light);
   a {
     color: inherit;
     &:hover {
@@ -91,35 +96,37 @@ table th {
 // Navbar customization
 
 .navbar {
-  box-shadow: 0px 0px 0px 0px var(--global-theme-color);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
   border-bottom: 1px solid var(--global-border-color);
   background-color: var(--global-navbar-bg-color);
-  opacity: 0.95;
-  font-family: Helvetica;
-  font-weight: bolder;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 0.98;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
 }
 .navbar.navbar-light {
   a {
     &:hover {
       text-decoration: none;
     }
-  } 
+  }
   .navbar-brand {
     color: var(--global-text-color);
     &:hover {
       color: var(--global-hover-color);
     }
-    font-weight: bolder;
+    font-weight: 500;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    transition: color 0.2s ease;
     &:hover {
       color: var(--global-hover-color);
     }
   }
   .navbar-nav .nav-item.active>.nav-link {
       background-color: inherit;
-      // font-weight: bolder;
       color: var(--global-theme-color);
       &:hover {
         color: var(--global-hover-color);
@@ -168,6 +175,26 @@ table th {
   color: var(--global-text-color);
 }
 
+.news table {
+  th {
+    font-weight: 400;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+    padding-right: 1.2rem;
+    border: none;
+  }
+  td {
+    border: none;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+  }
+  tr {
+    &:hover {
+      background-color: transparent;
+    }
+  }
+}
+
 // Publications
 
 .publications *{
@@ -182,7 +209,11 @@ table th {
   text-align: center;
   border-radius: 0.5em;
   margin-bottom: 1em;
-  // box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  }
 }
 
 .video {
@@ -193,13 +224,17 @@ table th {
 // Social (bottom)
 
 .social {
+  margin-bottom: 0.8rem;
   .contact-icons {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     a {
+      margin: 0 0.35rem;
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-text-color-light);
+        transition: color 0.2s ease;
       }
       &:hover {
+        text-decoration: none;
         i::before {
           color: var(--global-theme-color);
         }
@@ -216,11 +251,11 @@ table th {
 footer.fixed-bottom {
   text-align: center;
   background-color: var(--global-footer-bg-color);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   .container {
     color: var(--global-footer-text-color);
-    padding-top: 5px;
-    padding-bottom: 7px;
+    padding-top: 8px;
+    padding-bottom: 10px;
   }
   a {
     color: var(--global-footer-link-color);
@@ -234,9 +269,17 @@ footer.fixed-bottom {
 footer.sticky-bottom {
   text-align: center;
   border-top: 1px solid var(--global-border-color);
-  padding-top: 5px;
-  padding-bottom: 7px;
-  font-size: 0.7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
+  color: var(--global-footer-text-color);
+  a {
+    color: var(--global-footer-link-color);
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
 }
 
 // Rouge Color Customization
@@ -256,22 +299,25 @@ pre {
   }
 }
 
-// hidden
+// Links buttons
 
 .links {
   .btn {
     color: var(--global-text-color);
-    border: 1px solid var(--global-text-color);
+    border: 1px solid var(--global-border-color);
     box-shadow: none;
     margin-left: 0;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
+    font-size: 0.85rem;
+    transition: all 0.2s ease;
     &:hover {
       color: var(--global-theme-color);
       border-color: var(--global-theme-color);
+      background-color: rgba(0, 118, 223, 0.05);
     }
   }
 }

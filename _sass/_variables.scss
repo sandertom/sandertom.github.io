@@ -28,18 +28,16 @@ $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
 $grey-color-dark:     darken($grey-color, 25%);
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+$white-color: #fafaf8 !default;
+$black-color: #1a1a1a !default;
 
 
 // Theme colors
 
 $bg-color-light:             $white-color !default;
 $bg-color-light-darker:      darken($bg-color-light, 10%);
-$bg-color-dark:              #202124 !default;
-// $bg-color-dark:              #22272e !default;
+$bg-color-dark:              #1a1b1e !default;
 $bg-color-dark-lighter:      lighten($bg-color-dark, 10%);
 
 $code-bg-color-light:     rgba($blue-color, 0.05);
 $code-bg-color-dark:      #22272e !default;
-

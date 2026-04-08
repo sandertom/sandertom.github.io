@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-description: Detailed Curriculum Vitae, last updated 2025 <a href="/assets/pdf/cv.pdf"><i class="fas fa-download"></i></a>
+description: Detailed Curriculum Vitae, last updated 2026 <a href="/assets/pdf/cv.pdf"><i class="fas fa-download"></i></a>
 nav: true
 ---
 
@@ -21,7 +21,7 @@ I also spent 6 months as a civil servant in Hanoï (Vietnam) working with the di
 ## 🎓 Education
 
 ### École Polytechnique (IP Paris) & Meta FAIR
-*2022 - 2025.* \\
+*2022 - 2026.* \\
 Ph.D. in Mathematics & Machine Learning.\\
 Thesis: *Data Tracing in Deep Learning for Privacy and Watermarking*.\\
 Advisors: Prof. Alain Durmus (CMAP) & Chuan Guo (Meta FAIR).

@@ -36,7 +36,19 @@ news: true  # includes a list of news items
 ## Featured Work
 
 <div class="row">
-  <div class="col-md-4 mb-4">
+  <div class="col-md-6 col-lg-3 mb-4">
+    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+      <a href="https://ai.meta.com/blog/meta-seal-media-provenance-watermarking/" target="_blank" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+        <img src="/assets/img/icon.png" class="img-fluid" style="max-height: 120px; object-fit: contain;">
+      </a>
+      <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
+        <h5><a href="https://ai.meta.com/blog/meta-seal-media-provenance-watermarking/" target="_blank">Meta Seal</a></h5>
+        <p style="font-size: 0.85rem; flex: 1;">Core contributor to Meta's official media provenance offering. My open-source projects WAM and TextSeal power this release.</p>
+        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">Product</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-4">
     <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
       <a href="/publications/wam/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
         <img src="/assets/publis/wam/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
@@ -48,7 +60,7 @@ news: true  # includes a list of news items
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-6 col-lg-3 mb-4">
     <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
       <a href="/publications/radioactive/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
         <img src="/assets/publis/radioactive/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
@@ -60,7 +72,7 @@ news: true  # includes a list of news items
       </div>
     </div>
   </div>
-  <div class="col-md-4 mb-4">
+  <div class="col-md-6 col-lg-3 mb-4">
     <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
       <a href="/publications/tan/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
         <img src="/assets/publis/tan/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">

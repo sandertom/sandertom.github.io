@@ -1,21 +1,26 @@
-/******************************************************************************
- * Content
+/*******************************************************************************
+ * Styles for the layout of the theme.
  ******************************************************************************/
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
-  font-family: Helvetica;
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 1rem;
 }
 
 body.fixed-top-nav {
-  // Add some padding for the nav-bar.
   padding-top: 56px;
 }
 
 body.sticky-bottom-footer {
-  // Remove padding below footer.
   padding-bottom: 0;
 }
 
@@ -23,18 +28,26 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', 'Georgia', serif;
+  font-weight: 400;
+}
+
+h1 { font-weight: 500; }
+
 h2 {
   border-bottom: 1px solid var(--global-border-color);
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+  padding-bottom: 0.3em;
 }
 
 h3 {
-  margin-top: 1em;
-  margin-bottom: 0.2em;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
 }
 
 p {
   margin-top: 0.5em;
-  margin-bottom: 0.0em;
+  margin-bottom: 0.5em;
 }
