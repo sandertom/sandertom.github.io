@@ -24,7 +24,7 @@ authors:
   - name: Vlad Lacatusu
     affiliations: [Meta]
 
-journal: Preprint, 2026
+journal: International Conference on Machine Learning (ICML)
 arxiv: https://arxiv.org/abs/2512.16904
 img: /assets/publis/posthoc/splash.png
 

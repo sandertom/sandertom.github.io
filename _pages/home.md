@@ -74,6 +74,18 @@ news: true  # includes a list of news items
   </div>
   <div class="col-md-6 col-lg-3 mb-4">
     <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
+      <a href="/publications/textseal/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+        <img src="/assets/publis/textseal/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
+      </a>
+      <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
+        <h5><a href="/publications/textseal/">TextSeal</a></h5>
+        <p style="font-size: 0.85rem; flex: 1;">SOTA generation-time LLM watermark with localization and distillation-radioactivity. <a href="https://arxiv.org/abs/2605.12456">arXiv</a>.</p>
+        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">Preprint 2026</span>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3 mb-4">
+    <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
       <a href="/publications/tan/" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
         <img src="/assets/publis/tan/splash.png" class="img-fluid" style="max-height: 170px; object-fit: contain;">
       </a>
