@@ -38,7 +38,7 @@ authors:
     url: "https://pierrefdz.github.io/"
     affiliations: [FAIR Meta]
 
-journal: Preprint, 2026
+journal: NeurIPS, 2026
 arxiv: https://arxiv.org/abs/2605.12456
 img: /assets/publis/textseal/splash.png
 
