@@ -2,7 +2,7 @@
 layout: page
 permalink: /
 title: Home
-description: AI Research Scientist at Meta Superintelligence Labs - FAIR. PhD from École polytechnique and Meta FAIR.
+description: Senior Research Scientist at Meta Superintelligence Labs - FAIR. PhD from École polytechnique and Meta FAIR.
 
 profile:
   image: avatar.jpg
@@ -18,7 +18,7 @@ news: true  # includes a list of news items
   <div class="col-md-8" markdown="1">
   Hi!
 
-  I am an AI Research Scientist at [Meta Superintelligence Labs - FAIR](https://ai.meta.com/research/) (Fundamental AI Research) in Paris. I completed my PhD at FAIR and [École polytechnique](https://www.polytechnique.edu/en), advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
+  I am a Senior Research Scientist at [Meta Superintelligence Labs - FAIR](https://ai.meta.com/research/) (Fundamental AI Research) in Paris. I completed my PhD at FAIR and [École polytechnique](https://www.polytechnique.edu/en), advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
 
   My research focuses on privacy preserving machine learning, data protection, and watermarking, from Differential Privacy to media provenance. I am a core contributor to [Meta Seal](https://github.com/facebookresearch/watermark-anything), Meta's official provenance offering.
 
