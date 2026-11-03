@@ -92,7 +92,10 @@ news: true  # includes a list of news items
       <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
         <h5><a href="/publications/textseal2/">TextSeal2</a></h5>
         <p style="font-size: 0.85rem; flex: 1;">Distortion-free LLM watermark with copula mixing and memoryless races, keeping its signal under speculative decoding. <a href="https://arxiv.org/abs/2610.40613">arXiv</a>.</p>
-        <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">Preprint 2026</span>
+        <div style="display: flex; gap: 0.3rem;">
+          <span class="badge" style="background-color: var(--global-theme-color); color: white;">New</span>
+          <span class="badge" style="background-color: var(--global-theme-color); color: white;">Preprint 2026</span>
+        </div>
       </div>
     </div>
   </div>
