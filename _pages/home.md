@@ -20,7 +20,7 @@ news: true  # includes a list of news items
 
   I am a Senior Research Scientist at [Meta Superintelligence Labs - FAIR](https://ai.meta.com/research/) (Fundamental AI Research) in Paris. I completed my PhD at FAIR and [École polytechnique](https://www.polytechnique.edu/en), advised by [Chuan Guo](https://scholar.google.com/citations?user=0gp5M-kAAAAJ&hl=en) and [Alain Durmus](https://scholar.google.fr/citations?user=nqLKv6EAAAAJ&hl=fr), and previously by [Alexandre Sablayrolles](https://scholar.google.fr/citations?hl=fr&user=Wy8wM-cAAAAJ) and [Pierre Stock](https://scholar.google.fr/citations?hl=fr&user=3e2-59cAAAAJ).
 
-  My research focuses on privacy preserving machine learning, data protection, and watermarking, from Differential Privacy to media provenance. I am a core contributor to [Meta Seal](https://github.com/facebookresearch/watermark-anything), Meta's official provenance offering.
+  My research focuses on privacy preserving machine learning, data protection, and watermarking, from Differential Privacy to media provenance. I am a core contributor to [Content Seal](https://facebookresearch.github.io/content-seal/), Meta's official watermarking offering.
 
   Prior to my PhD I studied at [École polytechnique](https://www.polytechnique.edu/en), majoring in computer science and mathematics.
   I also hold a Master's degree from [École Normale Supérieure Paris-Saclay](https://www.universite-paris-saclay.fr/en) where I studied Mathematics for vision and learning (MVA).
@@ -38,12 +38,12 @@ news: true  # includes a list of news items
 <div class="row">
   <div class="col-md-6 col-lg-3 mb-4">
     <div style="border: 1px solid var(--global-border-color); border-radius: 0.5em; overflow: hidden; height: 100%; display: flex; flex-direction: column;">
-      <a href="https://ai.meta.com/blog/meta-seal-media-provenance-watermarking/" target="_blank" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
+      <a href="https://facebookresearch.github.io/content-seal/" target="_blank" style="display: flex; align-items: center; justify-content: center; background: var(--global-bg-color); min-height: 180px; padding: 0.5rem;">
         <img src="/assets/img/icon.png" class="img-fluid" style="max-height: 120px; object-fit: contain;">
       </a>
       <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
-        <h5><a href="https://ai.meta.com/blog/meta-seal-media-provenance-watermarking/" target="_blank">Meta Seal</a></h5>
-        <p style="font-size: 0.85rem; flex: 1;">Core contributor to Meta's official media provenance offering. My open-source projects WAM and TextSeal power this release.</p>
+        <h5><a href="https://facebookresearch.github.io/content-seal/" target="_blank">Content Seal</a></h5>
+        <p style="font-size: 0.85rem; flex: 1;">Core contributor to Meta's official watermarking offering. My open-source projects WAM and TextSeal power this release.</p>
         <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">Product</span>
       </div>
     </div>
@@ -55,7 +55,7 @@ news: true  # includes a list of news items
       </a>
       <div style="padding: 0.8rem; flex: 1; display: flex; flex-direction: column;">
         <h5><a href="/publications/wam/">Watermark Anything</a></h5>
-        <p style="font-size: 0.85rem; flex: 1;">SOTA image watermarking with localization. 1.1k+ ⭐ on <a href="https://github.com/facebookresearch/watermark-anything">GitHub</a>. Core engine behind Meta Seal.</p>
+        <p style="font-size: 0.85rem; flex: 1;">SOTA image watermarking with localization. 1.1k+ ⭐ on <a href="https://github.com/facebookresearch/watermark-anything">GitHub</a>. Core engine behind Content Seal.</p>
         <span class="badge" style="background-color: var(--global-theme-color); color: white; align-self: flex-start;">ICLR 2025</span>
       </div>
     </div>
